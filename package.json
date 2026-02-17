@@ -4,5 +4,24 @@
   "scripts": {
     "start": "node backend/server.js",
     "build": "cd frontend && npm install --legacy-peer-deps && npm run build"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrunal-Waghare/MultiLng.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mrunal-Waghare/MultiLng/issues"
+  },
+  "homepage": "https://github.com/Mrunal-Waghare/MultiLng#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
   }
 }
